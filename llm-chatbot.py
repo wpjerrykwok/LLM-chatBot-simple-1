@@ -2,7 +2,8 @@
 # # Problem statement
 # 
 # To develop a simple chatbot that can answer basic questions about a specific topic.
-# reference: https://www.pycodemates.com/2021/11/build-a-AI-chatbot-using-python-and-deep-learning.html
+# 
+# reference: https://handsonai.medium.com/build-a-chat-bot-from-scratch-using-python-and-tensorflow-fd189bcfae45
 
 # %% [markdown]
 # # Setup environment
@@ -22,9 +23,12 @@ import tensorflow as tf
 # %% [markdown]
 # # Load and Preprocess Data
 
+# %% [markdown]
+# reference: https://www.yourlibrary.ca/citizenship-test-answer-keys/
+
 # %%
 # load data
-with open('intents.json') as intents_file:
+with open('https://github.com/wpjerrykwok/LLM-chatBot/blob/main/intents.json') as intents_file:
     raw_data = json.load(intents_file)
 
 # %%
