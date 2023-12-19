@@ -1,0 +1,175 @@
+{
+    "intents":[
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi there",
+                "How are you",
+                "Is anyone there?",
+                "Hey", 
+                "Hola", 
+                "Hello", 
+                "Good day"
+            ],
+            "responses": [
+                "Hello, thanks for asking", 
+                "Good to see you again", 
+                "Hi there, how can I help?"
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Bye", 
+                "See you later", 
+                "Goodbye", 
+                "Nice chatting to you, bye", 
+                "Till next time"
+            ],
+            "responses": [
+                "See you!", 
+                "Have a nice day", 
+                "Bye! Come back again soon."
+            ],
+            "context": [""]
+        },
+        {   
+            "tag": "thanks",
+            "patterns": [
+                "Thanks", 
+                "Thank you", 
+                "That's helpful", 
+                "Awesome, thanks", 
+                "Thanks for helping me"
+            ],
+            "responses": [
+                "Happy to help!", 
+                "Any time!", 
+                "My pleasure"
+            ],
+            "context": [""]
+        },
+        {   
+            "tag": "noanswer",
+            "patterns": [],
+            "responses": [
+                "Sorry, can't understand you", 
+                "Please give me more info", 
+                "Not sure I understand"],
+            "context": [""]
+        },
+        {   
+            "tag": "librarycard",
+            "patterns": [
+                "why library card is important",
+                "why need a library card"
+            ],
+            "responses": ["Winnipeg Public Library has 20 locations serving the citizens of Winnipeg. The Library offers a variety of services including a broad range of collections, programs for all ages, and information services. Your library card may be used at any branch in the system."],
+            "context": [""]
+        },
+        {   
+            "tag": "howtogetlibrarycard",
+            "patterns": [
+                "how to get a libracy card",
+                "where to get a library card"
+            ],
+            "responses": ["To get a card, visit one of our 20 branch locations. Staff in the branch will be happy to assist you in becoming a library member."],
+            "context": [""]},
+        {   
+            "tag": "librarycardfee",
+            "patterns": [
+                "how much is the library card fee",
+                "how much is the library card",
+                "how much is the fee for library card",
+                "cost library card"
+            ],
+            "responses": ["Library cards are free if you live or pay property or business taxes in the City of Winnipeg."],
+            "context": [""]
+        },
+        {
+            "tag": "librarycardapplication",
+            "patterns": [
+                "application form for library card",
+                "how to apply for library card"
+            ],
+            "responses": ["You can complete an application form (English / French) before coming to the library."],
+            "context": [""]
+        },
+        {
+            "tag": "whattobringtogetlibrarycard",
+            "patterns": [
+                "What should I bring to get a library card"
+            ],
+            "responses": ["You will be asked to show acceptable identification when you register for a card."],
+            "context": [""]
+        },
+        {
+            "tag": "renewlibrarycard",
+            "patterns": [
+                "How do I renew my library card"
+            ],
+            "responses": ["To renew your card, please visit one of our 20 branch locations."],
+            "context": [""]
+        },
+        {
+            "tag": "locations",
+            "patterns": [
+                "where is the library?",
+                "how many library in winnipeg"
+            ],
+            "responses": ["Bill and Helen Norrie; Charleswood; Millennium; Munroe; Osborne"],
+            "context": [""]
+        },
+        {
+            "tag": "billandhelen",
+            "patterns": [
+                "Where is Bill and Helen Norrie Library?",
+                "Where is Bill and Helen Norrie Library located?",
+                "Location Bill and Helen Norrie Library"
+            ],
+            "responses": ["15 Poseidon Bay"],
+            "context": [""]
+        },
+        {
+            "tag": "charleswood",
+            "patterns": [
+                "Where is Charleswood Library?",
+                "Where is Charleswood Library located?",
+                "Location Charleswood Library"
+            ],
+            "responses": ["6-4910 Roblin Blvd."],
+            "context": [""]
+        },
+        {
+            "tag": "millennium",
+            "patterns": [
+                "Where is Millennium Library?",
+                "Where is Millennium Library located?",
+                "Location Millennium Library"
+            ],
+            "responses": ["251 Donald St."],
+            "context": [""]
+        },
+        {
+            "tag": "munroe",
+            "patterns": [
+                "Where is Munroe Library?",
+                "Where is Munroe Library located?",
+                "Location Munroe Library"
+            ],
+            "responses": ["489 London St."],
+            "context": [""]
+        },
+        {
+            "tag": "osborne",
+            "patterns": [
+                "Where is Osborne Library?",
+                "Where is Osborne Library located?",
+                "Location Osborne Library"
+            ],
+            "responses": ["625 Osborne St."],
+            "context": [""]
+        } 
+]   
+}
