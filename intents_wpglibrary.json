@@ -99,7 +99,8 @@
         {
             "tag": "whattobringtogetlibrarycard",
             "patterns": [
-                "What should I bring to get a library card"
+                "What should I bring to get a library card",
+                "identification to get library card"
             ],
             "responses": ["You will be asked to show acceptable identification when you register for a card."],
             "context": [""]
@@ -107,7 +108,8 @@
         {
             "tag": "renewlibrarycard",
             "patterns": [
-                "How do I renew my library card"
+                "How do I renew my library card",
+                "renew library card"
             ],
             "responses": ["To renew your card, please visit one of our 20 branch locations."],
             "context": [""]
